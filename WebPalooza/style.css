@@ -1,0 +1,263 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #13152D;
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    width: 200vh;
+    height: 100vh;
+    background-image: url(https://www.clubbingspain.com/imagenes/Tomorrowland-Festival-Foto-2020.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.portada h1 {
+    margin-bottom: 350px;
+    color: white;
+    font-size: 70px;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px rgb(199, 9, 167);
+}
+
+.portada h2 {
+    margin-bottom: 363px;
+    color: #00C5D9;
+    font-size: 70px;
+    z-index: 2;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 3px rgb(218, 12, 12);
+}
+
+.portada-opacidad {
+    width: 200vh;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.lista-navegacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-navegacion li {
+    list-style: none;
+}
+
+.lista-navegacion li a {
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+.lista-navegacion li a:hover {
+    color: rgb(255, 0, 191);
+    cursor: pointer;
+}
+
+.s-quienes-somos {
+    display: flex;
+    justify-content: center;
+}
+
+.container-quienes-somos {
+    margin: 30px 0px;
+    box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+    -webkit-box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+    -moz-box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-quienes {
+    width: 80%;
+    filter: blur(.5px);
+    opacity: 0.8;
+}
+
+.titulo-seccion {
+    font-size: 2em;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.p-quienes-somos {
+    color: white;
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.titulo-artistas {
+    width: 100%;
+    background-color: #00C5D9;
+    margin-bottom: 30px;
+}
+
+.titulo-artistas h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    text-decoration: line-through rgb(255, 0, 140) 3.8px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.bandas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.card-bandas {
+    width: 30%;
+    height: 360px;
+    border-radius: 15px;
+    box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+    -webkit-box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+    -moz-box-shadow: 1px -1px 47px 1px rgba(217, 53, 169, 0.75);
+}
+
+.card-bandas img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-bandas h3 {
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card-bandas p {
+    text-align: center;
+    padding: 10px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacto-form {
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    -webkit-box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    -moz-box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    padding: 20px;
+}
+
+.contacto-form h2 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-input {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-input label {
+    font-size: 15px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-input input {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.container-input textarea {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.container-btn {
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn input {
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #00C5D9;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-btn input:hover {
+    box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    -webkit-box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    -moz-box-shadow: 1px -1px 47px 1px rgba(138, 53, 217, 0.75);
+    cursor: pointer;
+}
+
+.container-footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 15%;
+    background-color: #00C5D9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer i {
+    color: white;
+    font-size: 2em;
+}
+
+.face-icon:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.insta-icon:hover {
+    color: #c13584;
+    cursor: pointer;
+}
+
+.twit-icon:hover {
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.container-footer a {
+    text-decoration: none;
+}
