@@ -13,26 +13,29 @@ body {
     height: 100vh;
     background-image: url(https://www.clubbingspain.com/imagenes/Tomorrowland-Festival-Foto-2020.jpg);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     background-size: cover;
 }
 
 .portada h1 {
-    margin-bottom: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
     color: white;
     font-size: 70px;
     z-index: 2;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-shadow: 2px 2px 3px rgb(199, 9, 167);
 }
 
 .portada h2 {
-    margin-bottom: 363px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
     color: #00C5D9;
     font-size: 70px;
     z-index: 2;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-shadow: 2px 2px 3px rgb(218, 12, 12);
 }
 
